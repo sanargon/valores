@@ -1,4 +1,16 @@
 button {
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+   button {
     display: block;      /* Hace que el botón sea un bloque en vez de inline */
     width: 100vw;        /* 100% del ancho de la pantalla */
     max-width: 100%;     /* Evita que haya márgenes laterales */
@@ -21,4 +33,5 @@ button:hover {
     max-width: 100%;
     margin: 0;
     padding: 0;
+}
 }
