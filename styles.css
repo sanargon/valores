@@ -34,4 +34,16 @@ button:hover {
     margin: 0;
     padding: 0;
 }
+    footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Texto oscuro */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 }
