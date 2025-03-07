@@ -1,18 +1,27 @@
 @media screen and (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 18px; /* Aumenta el tamaño del texto general */
         padding: 10px;
     }
 
     h1, h2 {
-        font-size: 20px;
+        font-size: 22px; /* Aumenta los títulos */
         text-align: center;
     }
 
     button {
-        width: 100%;
-        padding: 15px;
-        font-size: 18px;
+        width: 100%; /* Que ocupen todo el ancho en móviles */
+        padding: 20px; /* Más alto */
+        font-size: 22px; /* Texto más grande */
+        border-radius: 10px; /* Bordes redondeados */
+        background-color: #007BFF; /* Color azul */
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3; /* Oscurece al pasar el mouse */
     }
 
     .container {
