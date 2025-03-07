@@ -1,32 +1,24 @@
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 20px;
-        padding: 10px;
-    }
+button {
+    display: block;      /* Hace que el botón sea un bloque en vez de inline */
+    width: 100vw;        /* 100% del ancho de la pantalla */
+    max-width: 100%;     /* Evita que haya márgenes laterales */
+    padding: 40px;       /* Hace los botones más grandes verticalmente */
+    font-size: 28px;     /* Agranda el texto */
+    text-align: center;  /* Centra el texto */
+    border-radius: 0px;  /* Bordes cuadrados para ocupar todo el espacio */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
-    h1, h2 {
-        font-size: 24px;
-        text-align: center;
-    }
+button:hover {
+    background-color: #0056b3;
+}
 
-    button {
-        width: 100vw;  /* Ocupa el ancho total de la pantalla */
-        padding: 30px;  /* Hace los botones más altos */
-        font-size: 26px;  /* Hace el texto más grande */
-        border-radius: 15px; /* Bordes redondeados */
-        background-color: #007BFF;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background-color: #0056b3;
-    }
-
-    .container {
-        width: 100%;
-        max-width: 100%;
-        margin: auto;
-    }
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
